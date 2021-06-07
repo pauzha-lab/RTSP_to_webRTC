@@ -1,0 +1,60 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	padding-top: 40px;
+	font-family: 'Raleway', sans-serif;
+}
+
+video, .console {
+	display: block;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.page-header {
+	border-bottom: 1px solid #c2c2c2;
+}
+
+.console {
+	overflow-y: auto;
+	width: 100%;
+	height: 200px;
+	display: none;
+}
+
+.col-md-2 {
+	width: 80px;
+	padding-top: 190px;
+}
+
+.actionCtns {
+	padding: 40px 0px;
+}
+
+#newStream svg {
+	margin-left: 10px;
+}
+
+.ctrls-btns {
+	padding: 20px;
+}
+
+.ctrls-btns button {
+	margin-right: 10px;
+}
+
+.stream-ctnr {
+	margin-top: 20px;
+}

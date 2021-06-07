@@ -1,0 +1,28 @@
+{
+  "name": "RTSP to webRTC",
+  "version": "0.1-dev",
+  "description": "RTSP to webRTC using kurento as gateway",
+  "authors": [
+    "pauzha sasidhar <freelance@pauzha.com>"
+  ],
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "LGPL",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~5.0.1",
+    "ekko-lightbox": "~3.2.3",
+    "adapter.js": "v0.2.9",
+    "kurento-client": "master",
+    "kurento-utils": "master"
+  }
+}
