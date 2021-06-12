@@ -6,6 +6,7 @@ Simple RTSP to webRTC for the local machine
 
 * NodeJS - javascript runtime enviroment
 * NPM    - Node package manager
+* Docker
 
 ## Installation
 
