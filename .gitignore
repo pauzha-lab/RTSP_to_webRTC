@@ -1,1 +1,2 @@
-bower_components/
+.gitignore
+bower_components

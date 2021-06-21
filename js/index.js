@@ -175,7 +175,7 @@ class rtcp2webrtc {
 
 				this.pipeline = p;
 
-				this.pipeline.create("PlayerEndpoint", { uri: this.address.value }, (error, player) => {
+				this.pipeline.create("PlayerEndpoint", { uri: this.address.value, networkCache: 0, useEncodedMedia: true }, (error, player) => {
 					if (error) return this.onError(error);
 
 					this.pipeline.create("WebRtcEndpoint", (error, webRtcEndpoint) => {
